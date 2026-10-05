@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07152f" />
+    <meta
+      name="description"
+      content="Небольшая сказка о WorkBooth, внимательном AI-контуре и Dashboard — без раскрытия внутренних деталей."
+    />
+    <title>WorkBooth — там, где данные становятся светом</title>
+    <link rel="icon" href="assets/workbooth-mark.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#story">Перейти к истории</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="WorkBooth — в начало истории">
+        <img src="assets/workbooth-mark.png" width="42" height="42" alt="" />
+        <span><strong>WorkBooth</strong><small>c_history</small></span>
+      </a>
+      <nav aria-label="Главная навигация">
+        <a href="#story">Сказка</a>
+        <a href="#constellation">AI-контур</a>
+        <a href="#dashboard">Dashboard</a>
+      </nav>
+      <button class="sound-toggle" type="button" data-sound aria-pressed="false">
+        <span aria-hidden="true">✦</span>
+        <span data-sound-label>Оживить звёзды</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="aurora aurora-one" aria-hidden="true"></div>
+        <div class="aurora aurora-two" aria-hidden="true"></div>
+        <div class="stars" data-stars aria-hidden="true"></div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Небольшая история о большой заботе</p>
+          <h1 id="hero-title">Там, где данные становятся <em>светом</em></h1>
+          <p class="hero-lead">
+            Сказка о том, как разрозненные сигналы нашли общий язык, а человек
+            получил спокойное окно, в котором видно главное.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#story">Открыть первую главу</a>
+            <a class="button button-ghost" href="#promise">Что останется тайной</a>
+          </div>
+        </div>
+
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit orbit-large"></div>
+          <div class="orbit orbit-small"></div>
+          <div class="core-mark">
+            <img src="assets/workbooth-mark.png" width="64" height="64" alt="" />
+          </div>
+          <span class="orbit-word word-human">человек</span>
+          <span class="orbit-word word-ai">AI</span>
+          <span class="orbit-word word-view">Dashboard</span>
+        </div>
+
+        <div class="scroll-cue" aria-hidden="true"><span></span>листайте историю</div>
+      </section>
+
+      <section class="opening" id="story" aria-labelledby="opening-title">
+        <div class="chapter-number">Пролог</div>
+        <div class="opening-grid">
+          <h2 id="opening-title">Однажды у множества голосов появился общий дом</h2>
+          <div>
+            <p class="dropcap">
+              В городе, где каждую минуту рождались события, жили маленькие
+              сигналы. Каждый знал что-то важное, но говорил в своё время и на
+              своём языке. Человеку приходилось собирать их по одному.
+            </p>
+            <p>
+              Тогда появился WorkBooth — не волшебник вместо человека, а
+              внимательный дом для порядка. Он научился бережно складывать
+              события в понятную картину и оставлять последнее слово тому, кто
+              отвечает за решение.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-path" aria-label="Главы истории">
+        <div class="path-line" aria-hidden="true"><i data-path-progress></i></div>
+
+        <article class="chapter reveal" data-chapter>
+          <div class="chapter-art art-sparks" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="chapter-copy">
+            <p class="chapter-kicker">Глава первая · Искры</p>
+            <h2>Сначала были только отдельные знаки</h2>
+            <p>
+              Один сообщал: «всё спокойно». Другой просил внимания. Третий
+              напоминал о времени. Поодиночке они казались шумом, но вместе
+              складывались в рассказ о том, что происходит сейчас.
+            </p>
+            <blockquote>Хорошая система начинается не с громких обещаний, а с умения услышать.</blockquote>
+          </div>
+        </article>
+
+        <article class="chapter chapter-reverse reveal" data-chapter id="constellation">
+          <div class="chapter-art contour-map" aria-label="Концептуальная карта AI-контура">
+            <div class="constellation" aria-hidden="true">
+              <span class="node node-one"></span>
+              <span class="node node-two"></span>
+              <span class="node node-three"></span>
+              <span class="node node-four"></span>
+              <span class="node node-five"></span>
+              <i class="beam beam-one"></i>
+              <i class="beam beam-two"></i>
+              <i class="beam beam-three"></i>
+              <i class="beam beam-four"></i>
+            </div>
+            <p>Это художественный образ, а не техническая схема.</p>
+          </div>
+          <div class="chapter-copy">
+            <p class="chapter-kicker">Глава вторая · Созвездие</p>
+            <h2>AI-контур научился задавать тихие вопросы</h2>
+            <p>
+              Рядом поселились помощники. Один умел замечать связи, другой —
+              готовить понятное объяснение, третий — перепроверять путь. Они не
+              управляли миром сами: советовали, сверяли и ждали человеческого
+              решения там, где оно важно.
+            </p>
+            <ul class="values-list">
+              <li><span>01</span> Помочь увидеть главное</li>
+              <li><span>02</span> Сохранить контекст</li>
+              <li><span>03</span> Оставить контроль человеку</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="chapter reveal" data-chapter id="dashboard">
+          <div class="chapter-art dashboard-window">
+            <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div class="window-content" aria-hidden="true">
+              <div class="mini-title"></div>
+              <div class="mini-subtitle"></div>
+              <div class="status-card status-main"><b></b><span></span><span></span></div>
+              <div class="status-card"><b></b><span></span></div>
+              <div class="status-card"><b></b><span></span></div>
+              <div class="calm-line"><i></i></div>
+            </div>
+            <p>Концептуальное окно Dashboard</p>
+          </div>
+          <div class="chapter-copy">
+            <p class="chapter-kicker">Глава третья · Окно</p>
+            <h2>Dashboard стал окном, а не лабиринтом</h2>
+            <p>
+              В нём не требовалось разгадывать заклинания. Спокойные цвета,
+              ясные статусы и знакомые действия помогали быстро понять: что в
+              порядке, где нужно внимание и какое решение ждёт человека.
+            </p>
+            <blockquote>Технология становится дружелюбной, когда сложное объясняется просто.</blockquote>
+          </div>
+        </article>
+
+        <article class="chapter chapter-reverse reveal" data-chapter>
+          <div class="chapter-art lantern" aria-hidden="true">
+            <div class="lantern-halo"></div>
+            <div class="lantern-body"><span></span></div>
+            <div class="lantern-ground"></div>
+          </div>
+          <div class="chapter-copy">
+            <p class="chapter-kicker">Глава четвёртая · Свет</p>
+            <h2>И сложность осталась за кулисами</h2>
+            <p>
+              Город не узнал всех секретов мастерской — да ему это и не было
+              нужно. Важно другое: информация приходила вовремя, решения
+              оставались осознанными, а команда могла тратить силы на работу,
+              которая действительно требует человека.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="promise" id="promise" aria-labelledby="promise-title">
+        <div class="promise-card reveal">
+          <p class="chapter-kicker">Обещание этой истории</p>
+          <h2 id="promise-title">Мы показываем смысл, но бережём устройство</h2>
+          <p>
+            Эта страница намеренно не раскрывает внутреннюю архитектуру,
+            инфраструктуру, конфигурации, данные и рабочие процессы. AI-контур
+            и Dashboard показаны как художественные образы. Это рассказ о
+            направлении и ценностях, а не техническая документация и не
+            заявление о конкретном развёртывании.
+          </p>
+          <div class="promise-seal" aria-label="Публично безопасная история">
+            <span aria-hidden="true">✦</span>
+            <strong>Public-safe story</strong>
+            <small>без внутренних подробностей</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="finale" aria-labelledby="finale-title">
+        <img src="assets/workbooth-mark.png" width="64" height="64" alt="" />
+        <p class="eyebrow">Продолжение пишут люди</p>
+        <h2 id="finale-title">Самая добрая магия — когда технология помогает человеку видеть яснее.</h2>
+        <a class="button button-primary" href="#top">Вернуться к началу</a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <img src="assets/workbooth-mark.png" width="34" height="34" alt="" />
+        <strong>WorkBooth</strong>
+      </div>
+      <p>Художественная публичная история · 2026 · MS8AT</p>
+      <p><a href="README.md">О проекте</a> · <a href="LICENSE.md">Права</a></p>
+    </footer>
+
+    <noscript>
+      <p class="noscript">История доступна без JavaScript; отключены только декоративные эффекты.</p>
+    </noscript>
+  </body>
+</html>

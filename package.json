@@ -1,0 +1,13 @@
+{
+  "name": "c_history",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A public, fairy-tale introduction to WorkBooth, its thoughtful AI contour and Dashboard.",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/validate-project.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
