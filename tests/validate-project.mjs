@@ -63,6 +63,9 @@ check(/без внутренних подробностей|не раскрыв�
 check(/prefers-reduced-motion/i.test(css), "reduced-motion support exists");
 check(/IntersectionObserver/.test(script), "progressive reveal uses IntersectionObserver");
 check(/<noscript>/i.test(html), "no-script notice exists");
+check(/<html\s+lang="ru"\s+class="no-js"/i.test(html), "document starts in no-JavaScript mode");
+check(/classList\.replace\("no-js", "js"\)/.test(html), "JavaScript progressively enables reveal effects");
+check(/\.reveal\s*\{\s*opacity:\s*1;\s*transform:\s*none;/.test(css), "story content remains visible without JavaScript");
 
 const localRefs = [...html.matchAll(/(?:href|src)="([^"]+)"/g)].map((match) => match[1]);
 const externalRefs = localRefs.filter((ref) => /^(?:https?:)?\/\//i.test(ref));
