@@ -26,10 +26,10 @@
 
 ## Проверка и публикация
 
-- [x] `npm test` — 51 PASS, 0 FAIL.
+- [x] `npm test` — 54 PASS, 0 FAIL.
 - [x] Desktop browser review — 1440×900, PASS.
 - [x] Mobile browser review — 390×844, PASS; horizontal overflow отсутствует.
-- [ ] Supervisor acceptance — ожидает финального review.
+- [x] Agent Supervisor: `ACCEPTED` для опубликованной revision `316e78d`.
 - [x] Clean `main` commit создан с GitHub noreply identity.
 - [x] GitHub visibility = `PUBLIC`.
 - [x] Remote `main` HEAD = опубликованный local commit.

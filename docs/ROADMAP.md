@@ -8,7 +8,7 @@
 | 4. Experience | Адаптивная страница, artwork и эффекты готовы | DONE |
 | 5. Local QA | Validator, link/static/security проверки | DONE |
 | 6. Visual QA | Desktop/mobile/reduced-motion review | DONE |
-| 7. Supervisor | Независимая сверка с Target и чек-листом | PLANNED |
+| 7. Supervisor | Независимая сверка с Target и чек-листом | DONE |
 | 8. Git | Изолированный main commit | DONE |
 | 9. GitHub | Public repo, Pages, HEAD/visibility/read-back | DONE |
 
