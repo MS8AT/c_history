@@ -30,7 +30,8 @@
 - [x] Desktop browser review — 1440×900, PASS.
 - [x] Mobile browser review — 390×844, PASS; horizontal overflow отсутствует.
 - [ ] Supervisor acceptance — ожидает финального review.
-- [ ] Clean `main` commit — ожидает Git-этапа.
-- [ ] GitHub visibility = `PUBLIC` — ожидает публикации.
-- [ ] Remote `main` HEAD = local commit — ожидает read-back проверки.
-- [ ] Публичное чтение без авторизации — ожидает финальной проверки.
+- [x] Clean `main` commit создан с GitHub noreply identity.
+- [x] GitHub visibility = `PUBLIC`.
+- [x] Remote `main` HEAD = опубликованный local commit.
+- [x] Публичный репозиторий читается без авторизации.
+- [x] GitHub Pages отвечает HTTP 200 и содержит заголовок истории.
